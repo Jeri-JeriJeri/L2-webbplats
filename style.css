@@ -51,4 +51,8 @@ a:focus {
 #quote {
     width: 450px;
 }
+.fun-fact {
+    width: 600px;
+    padding: 1rem;
+}
 
