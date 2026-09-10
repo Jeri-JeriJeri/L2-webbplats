@@ -1,0 +1,54 @@
+/* Global reset*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+/* Webbsidans bakgrund utseende */
+body {
+    background-color: rgb(245, 245, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    
+}
+main {
+    background-color: rgb(272, 272, 244);
+    margin: 0 auto;
+    padding: 0.5rem;
+    max-width: 800px;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+/* Länkar stlying*/
+nav {
+    margin:auto;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+a:hover {
+    text-decoration:underline;
+}
+a:focus {
+    background: gray;
+    border-radius: 12px;
+    color: white;
+}
+/* Text styling */
+.kassettband-beskrivning {
+    width: 700px;
+}
+#quote {
+    width: 450px;
+}
+
